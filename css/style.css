@@ -1,0 +1,1288 @@
+::-moz-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.body-home-accproject {
+  width: 60%;
+  height: 750px;
+  display: flex;
+  border-radius: 20px;
+}
+.body-home-accproject .body-home-acc1project {
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  border-radius: 15px 0px 0px 15px;
+}
+.body-home-accproject .body-home-acc1project img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+}
+.body-home-accproject .body-home-acc2project {
+  width: 60%;
+  height: 100%;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-gtproject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 15px 0px;
+  width: 100%;
+  height: 15%;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-gtproject h1 {
+  color: white;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject {
+  width: 90%;
+  height: 100%;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form {
+  width: 100%;
+  height: 100%;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor1project {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor1project input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid rgb(120, 74, 200);
+  color: #CCC;
+  color: white;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor1project input:focus {
+  outline: none;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor2project {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor2project input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid rgb(120, 74, 200);
+  color: #CCC;
+  color: white;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .nhap1project .infor2project input:focus {
+  outline: none;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .subproject {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .subproject .btnproject {
+  width: 200px;
+  height: 40px;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #756880, #8ca6db);
+  border: none;
+  color: #144272;
+  font-weight: 900;
+}
+.body-home-accproject .body-home-acc2project .body-home-acc2-formproject .loginproject form .subproject .btnproject:hover {
+  background: #b6aac0; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8b8194, #8ca6db);
+  cursor: pointer;
+  color: white;
+}
+
+.in4-khung {
+  width: 80%;
+  height: 800px;
+}
+.in4-khung table {
+  width: 100%;
+  height: 30%;
+  border-collapse: collapse;
+}
+.in4-khung table th, .in4-khung table td {
+  padding: 12px 15px;
+}
+.in4-khung table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+.in4-khung table thead tr {
+  background-color: #009879;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.in4-khung table .fix {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #C8E7C8;
+  color: #4E9654;
+}
+.in4-khung table .fix:hover {
+  opacity: 0.8;
+}
+.in4-khung table .delete {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #FFCED2;
+  color: #B6484E;
+  border: none;
+}
+.in4-khung table .delete:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.img-khung {
+  width: 100%;
+  height: 20%;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.body-home-acc {
+  width: 60%;
+  height: 750px;
+  display: flex;
+  border-radius: 20px;
+}
+.body-home-acc .body-home-acc1 {
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  border-radius: 15px 0px 0px 15px;
+}
+.body-home-acc .body-home-acc1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+}
+.body-home-acc .body-home-acc2 {
+  width: 60%;
+  height: 100%;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-gt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 15px 0px;
+  width: 100%;
+  height: 15%;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-gt h1 {
+  color: white;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login {
+  width: 90%;
+  height: 100%;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form {
+  width: 100%;
+  height: 100%;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor1 input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid rgb(120, 74, 200);
+  color: #CCC;
+  color: white;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor1 input:focus {
+  outline: none;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor2 input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid rgb(120, 74, 200);
+  color: #CCC;
+  color: white;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .nhap1 .infor2 input:focus {
+  outline: none;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .sub {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .sub .btn {
+  width: 200px;
+  height: 40px;
+  background: #b993d6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #756880, #8ca6db);
+  border: none;
+  color: #144272;
+  font-weight: 900;
+}
+.body-home-acc .body-home-acc2 .body-home-acc2-form .login form .sub .btn:hover {
+  background: #b6aac0; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8b8194, #8ca6db);
+  cursor: pointer;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(252, 251, 255);
+}
+header .header-nav {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+header .header-nav .header-name-self {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Noto Serif", serif;
+}
+header .header-nav .header-name-self p {
+  color: #2b2a2c;
+  font-weight: 900;
+}
+header .header-nav .header-nav-a {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .header-nav .header-nav-a a {
+  color: #2b2a2c;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 1s;
+}
+header .header-nav .header-nav-a a:hover {
+  color: #6752e0;
+}
+
+.body-home {
+  width: 100vw;
+  min-height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 251, 255);
+}
+.body-home .About {
+  width: 80%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.body-home .About .About-title {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home .About .About-title h1 {
+  color: #1c1c1d;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.body-home .About .About-Myself {
+  width: 100%;
+  height: 85%;
+  display: flex;
+}
+.body-home .About .About-Myself .About-Myselfimg {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home .About .About-Myself .About-Myselfimg img {
+  width: 55%;
+  height: 80%;
+  border: 15px solid #144272;
+}
+.body-home .About .About-Myself .About-Myself-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .gt {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid gray;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .gt h1 {
+  color: #1c1c1d;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .gt p {
+  color: #605353;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address {
+  width: 100%;
+  height: 50%;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address h1 {
+  color: #1c1c1d;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content1 {
+  width: 50%;
+  height: 100%;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content1 p {
+  padding-top: 15px;
+  font-family: "Noto Serif", serif;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content1 p .ht {
+  padding-left: 12px;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content1 p .tt {
+  padding-left: 16px;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content1 p span {
+  font-family: none;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content2 {
+  width: 50%;
+  height: 100%;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content2 p {
+  font-family: "Noto Serif", serif;
+  padding-top: 15px;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content2 p .dc {
+  padding-left: 27px;
+}
+.body-home .About .About-Myself .About-Myself-content .About-Myself-takevalue .address .address-content .address-content2 p span {
+  font-family: none;
+}
+.body-home .khung-home {
+  width: 80%;
+  height: 650px;
+  display: flex;
+}
+.body-home .khung-home .social-media {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.body-home .khung-home .social-media .github:hover {
+  transition: 1s;
+  transform: translateY(-110px);
+}
+.body-home .khung-home .social-media .face:hover {
+  transition: 1s;
+  transform: translateY(-110px);
+}
+.body-home .khung-home .social-media .ins:hover {
+  transition: 1s;
+  transform: translateY(-110px);
+}
+.body-home .khung-home .social-media a {
+  transform: translateY(-100px);
+  margin-top: 50px;
+  font-size: 1.6rem;
+}
+.body-home .khung-home .social-media a i {
+  color: #6752e0;
+}
+.body-home .khung-home .About-My_self {
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+.body-home .khung-home .About-My_self .About-My_self-content {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center {
+  width: 100%;
+  height: 70%;
+  transform: translateY(-5px);
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center .Job {
+  color: #4d4c4e;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  padding-top: 15px;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center .advice {
+  color: #4d4c4e;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  padding-top: 15px;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center h1 {
+  color: #232324;
+  font-size: 3.5rem;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center .to-contact {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center .to-contact a {
+  padding: 20px 25px;
+  background-color: #6752e0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+.body-home .khung-home .About-My_self .About-My_self-content .About-My_self-content-center .to-contact a i {
+  padding-left: 10px;
+}
+.body-home .khung-home .About-My_self .About-My_self-img {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.body-home .khung-home .About-My_self .About-My_self-img .background-img {
+  width: 55%;
+  height: 50%;
+  transform: translateY(60px);
+}
+.body-home .khung-home .About-My_self .About-My_self-img .background-img image {
+  width: 100%;
+}
+
+.project {
+  width: 80%;
+  height: 800px;
+}
+.project .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 45%);
+  width: 1000px;
+  height: 600px;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #bdbdbd;
+}
+.project #slide {
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 50px;
+}
+.project .item {
+  width: 400px;
+  height: 280px;
+  background-position: 50% 50%;
+  display: inline-block;
+  transition: 1s;
+  background-size: 200%;
+  position: absolute;
+  z-index: 1;
+}
+.project .item:nth-child(1) {
+  transform: translate(-150%);
+  background-position: 0% 50%;
+  opacity: 0;
+}
+.project .item:nth-child(2) {
+  transform: translate(-40%);
+  background-position: 20% 50%;
+}
+.project .item:nth-child(3) {
+  transform: translate(70%);
+  background-position: 50% 50%;
+}
+.project .item:nth-child(4) {
+  transform: translate(180%);
+  background-position: 80% 50%;
+}
+.project .item:nth-child(n+5) {
+  transform: translate(290%);
+  background-position: 100% 50%;
+  opacity: 0;
+}
+.project .item .content {
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  width: 80%;
+  padding: 0 10%;
+  font-family: system-ui;
+  text-align: center;
+  box-shadow: 0 30px 50px #b9b9b9;
+  transition: 0.5s;
+  overflow: hidden;
+  max-height: 0;
+}
+.project .item .content .from {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project .item .content .from a {
+  padding: 10px 20px;
+  background-color: #009879;
+  color: white;
+  text-decoration: none;
+}
+.project .item .content .from a:hover {
+  opacity: 0.8;
+}
+.project .item .content .name {
+  font-family: "Anton", sans-serif;
+}
+.project .item:hover .content {
+  max-height: 100px;
+}
+.project .item:hover {
+  background-size: 250%;
+}
+.project .buttons {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.project .buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  transition: 0.5s;
+}
+.project .buttons button:hover {
+  background-color: #bac383;
+}
+
+.skills {
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.skills .title-skills {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .title-skills h1 {
+  color: #1c1c1d;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.skills .language {
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+.skills .language .language-1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.skills .language .language-1 .language-title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .language .language-1 .language-title h3 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .language-title h3 i {
+  padding-right: 5px;
+}
+.skills .language .language-1 .languages {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .position-js {
+  position: absolute;
+  width: 80px;
+  height: 125px;
+  z-index: 1;
+  transform: translateY(-28.5px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.94;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .position-js:hover {
+  animation: animetion 2s linear, animetion 2s linear forwards;
+  cursor: pointer;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .position-js:hover h2 {
+  display: block;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .position-js h2 {
+  display: none;
+  color: white;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .languaes-js-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .languaes-js-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .languaes-js-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .languaes-js-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-js .languaes-js-content p {
+  color: grey;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .position-html {
+  position: absolute;
+  width: 80px;
+  height: 125px;
+  z-index: 1;
+  transform: translateY(-28.5px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.94;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .position-html:hover {
+  animation: animetion 2s linear, animetion 2s linear forwards;
+  cursor: pointer;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .position-html:hover h2 {
+  font-weight: 900;
+  display: block;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .position-html h2 {
+  display: none;
+  color: white;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .languaes-html-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .languaes-html-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .languaes-html-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .languaes-html-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-html .languaes-html-content p {
+  color: grey;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .position-css {
+  position: absolute;
+  width: 80px;
+  height: 125px;
+  z-index: 1;
+  transform: translateY(-28.5px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.94;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .position-css:hover {
+  animation: animetion 2s linear, animetion 2s linear forwards;
+  cursor: pointer;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .position-css:hover h2 {
+  font-weight: 900;
+  display: block;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .position-css h2 {
+  display: none;
+  color: white;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .languaes-css-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .languaes-css-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .languaes-css-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .languaes-css-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .languages .languages-khung1 .languaes-css .languaes-css-content p {
+  color: grey;
+}
+.skills .language .language-1 .languages .languages-khung2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .position-react {
+  position: absolute;
+  width: 80px;
+  height: 125px;
+  z-index: 1;
+  transform: translateY(-28.5px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.94;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .position-react:hover {
+  animation: animetion 2s linear, animetion 2s linear forwards;
+  cursor: pointer;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .position-react:hover h2 {
+  font-weight: 900;
+  display: block;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .position-react h2 {
+  display: none;
+  color: white;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .languaes-react-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .languaes-react-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .languaes-react-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .languaes-react-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-react .languaes-react-content p {
+  color: grey;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .position-git {
+  position: absolute;
+  width: 80px;
+  height: 125px;
+  z-index: 1;
+  transform: translateY(-28.5px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.94;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .position-git:hover {
+  animation: animetion 2s linear, animetion 2s linear forwards;
+  cursor: pointer;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .position-git:hover h2 {
+  font-weight: 900;
+  display: block;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .position-git h2 {
+  display: none;
+  color: white;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .languaes-git-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .languaes-git-border img {
+  width: 100%;
+  height: 45%;
+  transform: translateX(14px);
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .languaes-git-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .languaes-git-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-git .languaes-git-content p {
+  color: grey;
+}
+.skills .language .language-1 .languages .languages-khung2 .languaes-none {
+  width: 33%;
+  height: 100%;
+}
+.skills .language .language-design {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .language .language-design .language-design-title h3 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-design .language-design-title h3 i {
+  padding-right: 5px;
+}
+.skills .language .language-design .language-design-logo {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-content p {
+  color: grey;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-content p {
+  color: grey;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-border {
+  width: 40%;
+  height: 40%;
+  background-color: #ECECEC;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-border img {
+  width: 100%;
+  height: 45%;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-content {
+  width: 60%;
+  height: 15%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-content h1 {
+  font-family: "Noto Serif", serif;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-content p {
+  color: grey;
+}
+.skills .language .language-design .language-design-logo .language-design-khung2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes animetion {
+  100% {
+    background-color: #6752e0;
+  }
+}
+@keyframes font {
+  100% {
+    display: block;
+  }
+}
+.footer {
+  width: 100vw;
+  height: 350px;
+  background-color: #ECF2FF;
+}
+
+.detail-img {
+  width: 60%;
+  height: 100%;
+}
+.detail-img .detail-container {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  background-color: #1c1c1d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-94%, -45%);
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #bdbdbd;
+}
+.detail-img .detail-container .detail-slide {
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 50px;
+}
+.detail-img .detail-container .detail-slide .detail-item {
+  width: 300px;
+  height: 200px;
+  background-position: 50% 50%;
+  display: inline-block;
+  transition: 1s;
+  background-size: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.detail-img .detail-container .detail-slide .detail-item:nth-child(1) {
+  transform: translate(-60%);
+  background-position: 0 50%;
+  opacity: 0;
+}
+.detail-img .detail-container .detail-slide .detail-item:nth-child(2) {
+  transform: translate(70%);
+  background-position: 0 50%;
+  opacity: 0.8;
+}
+.detail-img .detail-container .detail-slide .detail-item:nth-child(n+3) {
+  transform: translate(200%);
+  background-position: 0 50%;
+  opacity: 0;
+}
+
+.detail-buttom {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.detail-buttom button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #A084DC;
+}
+.detail-buttom button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.detail-info {
+  width: 40%;
+  height: 100%;
+  background-color: #144272;
+}/*# sourceMappingURL=style.css.map */
