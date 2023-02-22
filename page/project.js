@@ -1,7 +1,7 @@
 import axios from "axios";
 import footer from "../component/footer";
 import header from "../component/header";
-import { useEffect, useState } from "../lib/router";
+import { router, useEffect, useState } from "../lib/router";
 
 const project = () => {
   const [project, setproject] = useState([]);
@@ -26,6 +26,25 @@ const project = () => {
       document.getElementById("slide").prepend(lists[lists.length - 1]);
     };
   });
+  useEffect(() => {
+    const search = document.querySelector("#search");
+    const form_search = document.querySelector("#btn-search");
+    const buttom = document.querySelector(".search-btn");
+    // buttom.addEventListener("click", (e) => {
+    //   if (search == "") {
+    //     alert("Xin vui Lòng nhập lại !");
+    //   }
+    // });
+    form_search.addEventListener("change", (e) => {
+      e.preventDefault();
+      if (e == "" || search == "") {
+        alert("Xin vui nhập lại !");
+      } else {
+        const newdata = data.filter((e) => e.name == search.value);
+        router.navigate(`/project/${newdata[0]?.id || ""}`);
+      }
+    });
+  });
   return `
     ${header()}
     <div class="body-home">
@@ -46,7 +65,7 @@ const project = () => {
               <br>
               công việc</p>
               <div class="to-contact">
-                <a href="">Contact me  <i class="fa-regular fa-address-book"></i></a>
+                <a href="/contact">Contact me  <i class="fa-regular fa-address-book"></i></a>
               </div>
           </div>
         </div>
@@ -76,8 +95,12 @@ const project = () => {
     <div class="project">
     <div class="container">
         <h1 style = "padding-bottom: 30px;">
-            Show Projects
+            Hiển thị Projects
         </h1>
+        <form action="" id="btn-search" class="form-search">
+            <input type="text" placeholder="Tìm kiếm" id="search">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
         <div id="slide">
             ${data.map((cur) => {
               return `

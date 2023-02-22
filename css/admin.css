@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrap-add {
+  width: 100vw;
+  height: 100vh;
+}
+#wrap-add .khung-admin {
+  width: 100%;
+  height: 968px;
+  display: flex;
+}
+#wrap-add .khung-admin .nav-lef {
+  width: 20%;
+  height: 100%;
+  background-color: #283339;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-lef .nav-a {
+  width: 90%;
+  height: 100%;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: white;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link {
+  width: 100%;
+  height: 80%;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: white;
+  padding-top: 10px;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 .icon1 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 .icon1 i {
+  font-size: 1.2rem;
+  color: white;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 .nava {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 .nava a {
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: white;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a1 .nava a:hover {
+  opacity: 0.8;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 .icon1 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 .icon1 i {
+  font-size: 1.2rem;
+  color: white;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 .nava {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 .nava a {
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: white;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a2 .nava a:hover {
+  opacity: 0.8;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a3 {
+  width: 100%;
+  height: 20%;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a3 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 1.3rem;
+}
+#wrap-add .khung-admin .nav-lef .nav-a .title-a-link .go-a .go-a3 a:hover {
+  opacity: 0.8;
+}
+#wrap-add .khung-admin .nav-right {
+  width: 80%;
+  height: 100%;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-right .nav-khung {
+  width: 95%;
+  height: 95%;
+  background-color: white;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .title h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content {
+  width: 100%;
+  height: 90%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .name-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .name-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .name-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .name-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-img {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .school-img p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+  margin-bottom: 10px;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .email-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .email-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .email-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .email-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .sdt-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .sdt-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .sdt-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .sdt-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .address-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .address-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .address-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .address-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .job-khung {
+  width: 100%;
+  height: 10%;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .job-khung p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #283339;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .job-khung input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .job-khung input:focus {
+  border: 0.5px solid black;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .butom-khung {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .butom-khung a {
+  width: 100px;
+  height: 40px;
+  background-color: #29A8E0;
+  text-decoration: none;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: white;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .butom-khung a:hover {
+  opacity: 0.8;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .butom-khung button {
+  width: 100px;
+  height: 40px;
+  background-color: #29A8E0;
+  border: none;
+  font-weight: 900;
+  color: white;
+}
+#wrap-add .khung-admin .nav-right .nav-khung .content form .butom-khung button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.khung-show {
+  width: 90%;
+  height: 90%;
+}
+.khung-show table {
+  width: 100%;
+  height: 30%;
+  border-collapse: collapse;
+}
+.khung-show table th, .khung-show table td {
+  padding: 12px 15px;
+}
+.khung-show table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+.khung-show table thead tr {
+  background-color: #009879;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.khung-show table .fix {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #C8E7C8;
+  color: #4E9654;
+}
+.khung-show table .fix:hover {
+  opacity: 0.8;
+}
+.khung-show table .delete {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #FFCED2;
+  color: #B6484E;
+  border: none;
+}
+.khung-show table .delete:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}/*# sourceMappingURL=admin.css.map */

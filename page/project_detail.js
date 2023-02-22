@@ -3,13 +3,7 @@ import footer from "../component/footer";
 import header from "../component/header";
 import { useEffect, useState } from "../lib/router";
 
-const project_detail = ({ id }) => {
-  const [project, setproject] = useState([]);
-  useEffect(() => {
-    axios
-      .get("http://localhost:3000/profile")
-      .then(({ data }) => setproject(data));
-  }, []);
+const ProducDetail = ({ id }) => {
   const [data, setdata] = useState([]);
   useEffect(() => {
     axios
@@ -17,8 +11,23 @@ const project_detail = ({ id }) => {
       .then(({ data }) => setdata(data));
   }, []);
   useEffect(() => {
-    document.querySelectorAll("");
+    document.querySelector("#next").addEventListener("click", (e) => {
+      const lists = document.querySelectorAll(".detail-item");
+      document.querySelector(".detail-slide").appendChild(lists[0]);
+    });
+    document.querySelector("#prev").addEventListener("click", () => {
+      const lists = document.querySelectorAll(".detail-item");
+      document.querySelector(".detail-slide").prepend(lists[lists.length - 1]);
+    });
   });
+
+  const renderItemImage = () => {
+    return (data?.img || []).map(
+      (e) =>
+        `<div class="detail-item" style="background-image: url(${e})"></div>`
+    );
+  };
+
   return `
     ${header()}
     <div class="body-home">
@@ -26,12 +35,7 @@ const project_detail = ({ id }) => {
        <div class="detail-img">
          <div class="detail-container">
            <div class="detail-slide">
-              <div class="detail-item" style="background-image: url(../img/project1.jpg)">
-              </div>
-              <div class="detail-item" style="background-image: url(../img/project2.jpg)">
-              </div>
-              <div class="detail-item" style="background-image: url(../img/project3.jpg)">
-              </div>
+            ${renderItemImage()}
            </div>
            <div class="detail-buttom">
            <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
@@ -40,7 +44,15 @@ const project_detail = ({ id }) => {
          </div>
        </div>
       <div class="detail-info">
-        
+         <div class="detail-title">
+         <h1>Thông tin Project</h1>
+         </div>
+         <div class="detail-infomation">
+         <p>Tên Project : ${data?.name || ""} </p>
+         <p>Ngôn ngữ sử dụng : ${data?.langues || ""}</p>
+         <p>Link github : <a href="${data?.github || ""}">Xem thêm</a></p>
+         <p>Freamwork Project : ${data?.frameword || ""}</p>
+         </div>
       </div>
     </div>
     </div>
@@ -48,4 +60,4 @@ const project_detail = ({ id }) => {
     `;
 };
 
-export default project_detail;
+export default ProducDetail;

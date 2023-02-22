@@ -31,7 +31,7 @@ const home = () => {
               <br>
               công việc</p>
               <div class="to-contact">
-                <a href="">Contact me  <i class="fa-regular fa-address-book"></i></a>
+                <a href="/contact">Contact me  <i class="fa-regular fa-address-book"></i></a>
               </div>
           </div>
         </div>

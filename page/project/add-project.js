@@ -6,44 +6,53 @@ import { router, useEffect, useState } from "../../lib/router";
 const add_project = () => {
   const [data, setdata] = useState([]);
   useEffect(() => {
-    const takeimg = [];
-    document.querySelector("#img").addEventListener("change", (e) => {
-      if (window.File && window.FileReader && window.FileList && window.Blob) {
-        const file = e.target.files;
-        for (let index = 0; index < file.length; index++) {
-          if (!file[index].type.match("image")) {
-            continue;
-          } else {
-            const picreader = new FileReader();
-            picreader.addEventListener("load", function (params) {
-              const picFile = params.target;
-              takeimg.push(picFile.result);
-            });
-            picreader.readAsDataURL(file[index]);
-          }
-        }
-      }
-    });
     const takeform = document.querySelector("#form_add");
     const name = document.querySelector("#name");
     const langues = document.querySelector("#langues");
     const github = document.querySelector("#github");
+    const img = document.querySelector("#img");
     const frameword = document.querySelector("#frameword");
-    takeform.addEventListener("submit", (e) => {
+
+    takeform.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const url = await uploadFiles(img.files);
       const formdata = {
         name: name.value,
         langues: langues.value,
         github: github.value,
         frameword: frameword.value,
-        img: takeimg,
+        img: url,
       };
-      e.preventDefault();
       axios
         .post("http://localhost:3000/project", formdata)
+        .then(() => alert("Thêm thành công !"))
         .then(() => router.navigate("/admin/show_project"));
     });
   });
+  const uploadFiles = async (files) => {
+    if (files) {
+      const cloud_name = "dsbiugddk";
+      const preset_name = "demo-ECMA";
+      const urls = [];
+      const FOLDER_NAME = "Upload_ECMA";
+      const api = `https://api.cloudinary.com/v1_1/${cloud_name}/image/upload`;
+      const formData = new FormData();
 
+      formData.append("upload_preset", preset_name);
+      formData.append("folder", FOLDER_NAME);
+
+      for (const file of files) {
+        formData.append("file", file);
+        const respon = await axios.post(api, formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+        urls.push(respon.data.secure_url);
+      }
+      return urls;
+    }
+  };
   return `
     ${header()}
 

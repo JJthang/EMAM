@@ -75,9 +75,7 @@ const fix_project = ({ id }) => {
               </div>
             </div>
             <div class="img-khung">
-            <input type="file" multiple="multiple" value ="${
-              data.img
-            }" name="" id="img">
+            <input type="file" multiple="multiple" value ="$" name="" id="img">
             <div id ="takeimg">
             
             </div>

@@ -16,10 +16,8 @@ const header = () => {
       </div>
       <div class="header-nav-a">
         <a href="/home">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
         <a href="/project">Projects</a>
-        <a href="">Contact</a>
+        <a href="/contact">Contact</a>
       </div>
     </div>
 </header>

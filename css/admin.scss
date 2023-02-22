@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap-add{
+    width: 100vw;
+    height: 100vh;
+    .khung-admin{
+        width: 100%;
+        height: 968px;
+        display: flex;
+        .nav-lef{
+            width: 20%;
+            height: 100%;
+            background-color: #283339;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .nav-a{
+                width: 90%;
+                height: 100%;
+                .title-a{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    h2{
+                        font-family: 'Noto Serif', serif;
+                        font-weight: 900; 
+                        color: white;
+                    }
+                }
+                .title-a-link{
+                    width: 100%;
+                    height: 80%;
+                    p{
+                        font-family: 'Noto Serif', serif;
+                        font-weight: 900; 
+                        color: white;
+                        padding-top: 10px;
+                    }
+                    .go-a{
+                        width: 100%;
+                        height: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        .go-a1{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            .icon1{
+                                width: 20%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                i{
+                                    font-size: 1.2rem;
+                                    color: white;
+                                }
+                            }
+                            .nava{
+                                width: 80%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                a{
+                                    text-decoration: none;
+                                    font-family: 'Noto Serif', serif;
+                                    font-weight: 900; 
+                                    color: white;
+                                    &:hover{
+                                        opacity: 0.8;
+                                    }
+                                }
+                            }
+                        }
+                        .go-a2{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            .icon1{
+                                width: 20%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                i{
+                                    font-size: 1.2rem;
+                                    color: white;
+                                }
+                            }
+                            .nava{
+                                width: 80%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                a{
+                                    text-decoration: none;
+                                    font-family: 'Noto Serif', serif;
+                                    font-weight: 900; 
+                                    color: white;
+                                    &:hover{
+                                        opacity: 0.8;
+                                    }
+                                }
+                            }
+                        }
+                        .go-a3{
+                            width: 100%;
+                            height: 20%;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                margin-left: 70px;
+                                font-size: 1.3rem;
+                                &:hover{
+                                    opacity: 0.8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-right{
+            width: 80%;
+            height: 100%;
+            background-color:#E5E5E5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .nav-khung{
+                width: 95%;
+                height: 95%;
+                background-color: white;
+                .title{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    h1{
+                        font-family: 'Noto Serif', serif;
+                        font-weight: 900; 
+                        color: #283339;
+                    }
+                }
+                .content{
+                    width: 100%;
+                    height: 90%;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        .name-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .school-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .school-img{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        .email-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .sdt-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .address-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .job-khung{
+                            width: 100%;
+                            height: 10%;
+                            p{
+                                font-family: 'Noto Serif', serif;
+                                font-weight: 900; 
+                                color: #283339;
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+                                border: 0.5px solid black;
+                                &:focus{
+                                    border: 0.5px solid black;
+                                }
+                            }
+                        }
+                        .butom-khung{
+                            width: 100%;
+                            height: 10%;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            a{
+                                width: 100px;
+                                height: 40px;
+                                background-color: #29A8E0;
+                                text-decoration: none;
+                                margin-left: 10px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-weight: 900;
+                                color: white;
+                                &:hover{
+                                    opacity: 0.8;
+                                }
+                            }
+                            button{
+                                width: 100px;
+                                height: 40px;
+                                background-color: #29A8E0;
+                                border: none;
+                                font-weight: 900;
+                                color: white;
+                                &:hover{
+                                    cursor: pointer;
+                                    opacity: 0.8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//todo show info
+.khung-show{
+    width: 90%;
+    height: 90%;
+    
+    table{
+        width: 100%;
+        height: 30%;
+        border-collapse: collapse;
+        th, td{
+            padding: 12px 15px;
+        }
+        tbody{
+            tr{
+                border-bottom: 1px solid #dddddd;text-align: center;
+            }
+        }
+        thead{
+            tr{
+                background-color: #009879;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .fix{
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #C8E7C8;
+            color: #4E9654;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .delete{
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #FFCED2;
+            color: #B6484E;
+            border: none;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        }
+    }
+}

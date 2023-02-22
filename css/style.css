@@ -128,6 +128,272 @@
   color: white;
 }
 
+.reponsive {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  transform: translate(-0.5%, 47%);
+}
+.reponsive .reponsive-title {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-title h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+}
+.reponsive .reponsive-content {
+  width: 100%;
+  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress .reponsive-dress-icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress .reponsive-dress-icon i {
+  font-size: 1rem;
+  padding: 20px 22px;
+  background-color: white;
+  border-radius: 50%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress .reponsive-dress-content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress .reponsive-dress-content h2 {
+  transform: translateY(-8px);
+  color: #144272;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-dress .reponsive-dress-content p {
+  color: white;
+  font-weight: 900;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone .reponsive-dress-icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone .reponsive-dress-icon i {
+  font-size: 1rem;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone .reponsive-dress-content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone .reponsive-dress-content h2 {
+  transform: translateY(-8px);
+  color: #144272;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-phone .reponsive-dress-content p {
+  color: white;
+  font-weight: 900;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail .reponsive-dress-icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail .reponsive-dress-icon i {
+  font-size: 1rem;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail .reponsive-dress-content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail .reponsive-dress-content h2 {
+  transform: translateY(-8px);
+  color: #144272;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-infomation .reponsive-mail .reponsive-dress-content p {
+  color: white;
+  font-weight: 900;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact {
+  width: 65%;
+  height: 90%;
+  margin-top: 1%;
+  background-color: whitesmoke;
+  box-shadow: 0 30px 50px #b9b9b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung {
+  width: 70%;
+  height: 90%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-title {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-title h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form {
+  width: 100%;
+  height: 85%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form {
+  width: 100%;
+  height: 100%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name {
+  width: 100%;
+  height: 20%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #144272;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name ::-moz-placeholder {
+  color: gray;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name ::placeholder {
+  color: gray;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name input {
+  width: 400px;
+  height: 30px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .full-name input:focus {
+  outline: none;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email {
+  width: 100%;
+  height: 20%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #144272;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email ::-moz-placeholder {
+  color: gray;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email ::placeholder {
+  color: gray;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email input {
+  width: 400px;
+  height: 30px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .email input:focus {
+  outline: none;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .mess {
+  width: 100%;
+  height: 40%;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .mess p {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  color: #144272;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .mess textarea {
+  margin-top: 10px;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .btn-click {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .btn-click button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #39B5E0;
+  color: white;
+  font-weight: 900;
+}
+.reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .btn-click button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .in4-khung {
   width: 80%;
   height: 800px;
@@ -339,7 +605,7 @@ header .header-nav .header-nav-a {
   width: 55%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 header .header-nav .header-nav-a a {
@@ -574,6 +840,20 @@ header .header-nav .header-nav-a a:hover {
   width: 100%;
 }
 
+.form-search {
+  width: 500px;
+  height: 100px;
+}
+.form-search input {
+  width: 220px;
+  height: 30px;
+}
+.form-search .search-btn {
+  width: 70px;
+  height: 33px;
+  transform: translateX(-5px);
+}
+
 .project {
   width: 80%;
   height: 800px;
@@ -592,7 +872,7 @@ header .header-nav .header-nav-a a:hover {
 .project #slide {
   width: -moz-max-content;
   width: max-content;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .project .item {
   width: 400px;
@@ -1101,6 +1381,10 @@ header .header-nav .header-nav-a a:hover {
   align-items: center;
   position: relative;
 }
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-border:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .skills .language .language-design .language-design-logo .language-design-khung1 .language-design-figma .language-design-figma-border img {
   width: 100%;
   height: 45%;
@@ -1138,6 +1422,10 @@ header .header-nav .header-nav-a a:hover {
   align-items: center;
   position: relative;
 }
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-border:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .skills .language .language-design .language-design-logo .language-design-khung1 .language-design-Adobe .language-design-Adobe-border img {
   width: 100%;
   height: 45%;
@@ -1174,6 +1462,10 @@ header .header-nav .header-nav-a a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+.skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-border:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 .skills .language .language-design .language-design-logo .language-design-khung1 .language-design-sketch .language-design-sketch-border img {
   width: 100%;
@@ -1213,8 +1505,17 @@ header .header-nav .header-nav-a a:hover {
 }
 .footer {
   width: 100vw;
-  height: 350px;
+  height: 80px;
   background-color: #ECF2FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer span {
+  font-weight: bold;
+}
+.footer i {
+  color: red;
 }
 
 .detail-img {
@@ -1223,12 +1524,12 @@ header .header-nav .header-nav-a a:hover {
 }
 .detail-img .detail-container {
   width: 700px;
-  height: 400px;
+  height: 600px;
   position: absolute;
   background-color: #1c1c1d;
   top: 50%;
   left: 50%;
-  transform: translate(-94%, -45%);
+  transform: translate(-94%, -25%);
   background-color: #f5f5f5;
   box-shadow: 0 30px 50px #bdbdbd;
 }
@@ -1238,8 +1539,8 @@ header .header-nav .header-nav-a a:hover {
   margin-top: 50px;
 }
 .detail-img .detail-container .detail-slide .detail-item {
-  width: 300px;
-  height: 200px;
+  width: 450px;
+  height: 350px;
   background-position: 50% 50%;
   display: inline-block;
   transition: 1s;
@@ -1248,17 +1549,17 @@ header .header-nav .header-nav-a a:hover {
   z-index: 1;
 }
 .detail-img .detail-container .detail-slide .detail-item:nth-child(1) {
-  transform: translate(-60%);
+  transform: translate(-90%);
   background-position: 0 50%;
   opacity: 0;
 }
 .detail-img .detail-container .detail-slide .detail-item:nth-child(2) {
-  transform: translate(70%);
+  transform: translate(30%);
   background-position: 0 50%;
-  opacity: 0.8;
+  opacity: 1;
 }
 .detail-img .detail-container .detail-slide .detail-item:nth-child(n+3) {
-  transform: translate(200%);
+  transform: translate(150%);
   background-position: 0 50%;
   opacity: 0;
 }
@@ -1284,5 +1585,40 @@ header .header-nav .header-nav-a a:hover {
 .detail-info {
   width: 40%;
   height: 100%;
-  background-color: #144272;
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #bdbdbd;
+  display: flex;
+  flex-direction: column;
+}
+.detail-info .detail-title {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-info .detail-title h1 {
+  color: #1c1c1d;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.detail-info .detail-infomation {
+  width: 100%;
+  height: 85%;
+  z-index: 1;
+}
+.detail-info .detail-infomation p {
+  padding-top: 30px;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  padding-left: 15px;
+}
+.detail-info .detail-infomation p a {
+  text-decoration: none;
+  color: #4D455D;
+}
+.detail-info .detail-infomation p a:hover {
+  color: #39B5E0;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
