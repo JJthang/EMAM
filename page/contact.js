@@ -23,9 +23,13 @@ const contact = () => {
         email_id: emailone,
         message: text,
       };
-      emailjs
-        .send("service_w9dfgqt", "template_x9zx3m3", formdata)
-        .then(() => alert("gửi thành công!"));
+      if ((formdata.from_name, formdata.email_id, formdata.message == "")) {
+        alert("Xin vui lòng nhập lại !");
+      } else {
+        emailjs
+          .send("service_w9dfgqt", "template_x9zx3m3", formdata)
+          .then(() => alert("gửi thành công!"));
+      }
     });
   });
   return `
