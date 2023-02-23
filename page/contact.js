@@ -11,17 +11,31 @@ const contact = () => {
       .then(({ data }) => setdata(data));
   }, []);
   useEffect(() => {
+    var myEditor;
+    ClassicEditor.create(document.querySelector("#text"))
+      .then((e) => {
+        console.log("Editor was initialized", e);
+        myEditor = e;
+      })
+      .catch(() => {
+        console.log("loi");
+      });
     let btn = document.getElementById("form-btn");
     console.log(btn);
     btn.addEventListener("submit", (e) => {
       e.preventDefault();
+      const hee = document.querySelector(
+        ".reponsive .reponsive-content .reponsive-khung .reponsive-contact .reponsive-contact-khung .reponsive-contact-form form .mess p"
+      );
       const name = document.querySelector("#sub-name").value;
       const emailone = document.querySelector("#sub-email").value;
       const text = document.querySelector("#text").value;
+      // console.log(hee.textContent);
+      const takevalue = myEditor.getData();
       const formdata = {
         from_name: name,
         email_id: emailone,
-        message: text,
+        message: takevalue,
       };
       if ((formdata.from_name, formdata.email_id, formdata.message == "")) {
         alert("Xin vui lòng nhập lại !");
@@ -52,7 +66,7 @@ const contact = () => {
               <br>
               công việc</p>
               <div class="to-contact">
-                <a href="/contact">Contact me  <i class="fa-regular fa-address-book"></i></a>
+              <a href="./img/main.png" download="">Dowload CV <i class="fa-solid fa-cloud-arrow-down"></i></a>
               </div>
           </div>
         </div>
@@ -137,7 +151,11 @@ const contact = () => {
                         </div>
                         <div class = "mess"> 
                         <p> Tin nhắn :  </p>
-                        <textarea name="" id="text" cols="52" rows="8"></textarea>
+                        <div class="khung-editor">
+                          <div id="text">
+
+                           </div>
+                          </div>
                         </div>
                         <div class = "btn-click"> 
                         <button id="btn_sendmail">Send</button>

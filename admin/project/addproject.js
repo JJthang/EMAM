@@ -90,7 +90,7 @@ const addproject = () => {
       <div class="nav-right">
           <div class="nav-khung">
               <div class="title">
-                  <h1>Thêm Thông tin</h1>
+                  <h1>Thêm Project</h1>
               </div>
               <div class="content">
                  <form action="" method="post" id="form_add">
@@ -103,15 +103,15 @@ const addproject = () => {
                       <input type="text" id="langues">
                   </div>
                   <div class="sdt-khung">
-                      <p>Link git : </p>
+                      <p>Link github : </p>
                       <input type="text" id="github">
                   </div>
                   <div class="address-khung">
-                      <p>FrameWork : : </p>
+                      <p>FrameWork : </p>
                       <input type="text" id="frameword">
                   </div>
                   <div class="school-img">
-                  <p>Img : </p>
+                  <p>Ảnh : </p>
                   <input type="file" multiple="multiple" name="" id="img">
                   </div>
                   <div class="butom-khung">

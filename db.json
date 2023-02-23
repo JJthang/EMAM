@@ -21,6 +21,7 @@
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648536/Upload_ECMA/qc8a3vdwzebog2k6esbq.jpg",
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648537/Upload_ECMA/oliqyyxwg8n2v2zore66.jpg"
       ],
+      "categoryId": 1,
       "id": 1
     },
     {
@@ -33,6 +34,7 @@
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648652/Upload_ECMA/p8j6wr1kkexmmsl8jx9u.jpg",
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648656/Upload_ECMA/gnthbivchutpexyvjw2c.jpg"
       ],
+      "categoryId": 1,
       "id": 2
     },
     {
@@ -45,6 +47,7 @@
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648805/Upload_ECMA/r3zkuu8btbotn0ld4umt.jpg",
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648806/Upload_ECMA/wuui2ral52vqyy79ohbl.jpg"
       ],
+      "categoryId": 1,
       "id": 3
     },
     {
@@ -57,6 +60,7 @@
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648929/Upload_ECMA/wgxhoi4zgwytme9zgqgk.jpg",
         "https://res.cloudinary.com/dsbiugddk/image/upload/v1676648930/Upload_ECMA/nrvwuno08wsm72siqsdt.jpg"
       ],
+      "categoryId": 2,
       "id": 4
     },
     {
@@ -64,11 +68,7 @@
       "langues": "HTML , CSS , Javascript",
       "github": "https://github.com/bedimcode/responsive-portfolio-website-Alexa",
       "frameword": "React , Angolar",
-      "img": [
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947552/Upload_ECMA/ux8iac2xyojb5xhzkyuk.jpg",
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947559/Upload_ECMA/behgncrs8tekdfwclotr.jpg",
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947575/Upload_ECMA/fc4z1yj92mrmxyxnjgla.jpg"
-      ],
+      "img": "C:\\fakepath\\96823af0e7c03d9e64d1.jpg",
       "id": 5
     },
     {
@@ -77,19 +77,21 @@
       "github": "https://github.com/bedimcode/responsive-portfolio-website-Alexa",
       "frameword": "React , Angolar",
       "img": [
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947552/Upload_ECMA/oqpojhvwbl5ciegnm5xr.jpg",
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947558/Upload_ECMA/p4hwmjig9izo6f4gxp28.jpg",
-        "https://res.cloudinary.com/dsbiugddk/image/upload/v1676947569/Upload_ECMA/r2smqtzjarpcg9fk6vsu.jpg"
+        "https://res.cloudinary.com/dsbiugddk/image/upload/v1677166524/Upload_ECMA/jalgqxrenfkdwahq6xaz.jpg",
+        "https://res.cloudinary.com/dsbiugddk/image/upload/v1677166524/Upload_ECMA/mc59u2tfxc00bvrt7dv6.jpg",
+        "https://res.cloudinary.com/dsbiugddk/image/upload/v1677166526/Upload_ECMA/mw1bt8feyrwsa2v0eswo.jpg"
       ],
       "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Coffee Projects"
     },
     {
-      "name": "",
-      "langues": "",
-      "github": "",
-      "frameword": "",
-      "img": [],
-      "id": 7
+      "id": 2,
+      "name": "Other Projects"
     }
   ]
 }

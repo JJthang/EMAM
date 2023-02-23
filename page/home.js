@@ -31,7 +31,7 @@ const home = () => {
               <br>
               công việc</p>
               <div class="to-contact">
-                <a href="/contact">Contact me  <i class="fa-regular fa-address-book"></i></a>
+              <a href="./img/main.png" download="">Dowload CV <i class="fa-solid fa-cloud-arrow-down"></i></a>
               </div>
           </div>
         </div>

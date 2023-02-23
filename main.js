@@ -7,13 +7,7 @@ import showproject from "./admin/project/showproject";
 import { render, router } from "./lib/router";
 import contact from "./page/contact";
 import home from "./page/home";
-import addin4 from "./page/in4self/addin4";
-import fixin4 from "./page/in4self/fixin4";
-import show from "./page/in4self/show";
 import project from "./page/project";
-import add_project from "./page/project/add-project";
-import fix_project from "./page/project/fix-project";
-import show_project from "./page/project/show-project";
 import project_detail from "./page/project_detail";
 
 const wrap = document.querySelector("#wrap");

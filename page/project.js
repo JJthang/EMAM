@@ -1,6 +1,7 @@
 import axios from "axios";
 import footer from "../component/footer";
 import header from "../component/header";
+import category from "../component/category";
 import { router, useEffect, useState } from "../lib/router";
 
 const project = () => {
@@ -45,6 +46,44 @@ const project = () => {
       }
     });
   });
+  useEffect(() => {
+    const ds_khung = document.querySelectorAll(".ds-khung");
+    ds_khung.forEach((element) => {
+      const select = element.querySelector(".select");
+      const caret = element.querySelector(".caret");
+      const menu = element.querySelector(".menu");
+      const options = element.querySelectorAll(".menu li");
+      const selected = element.querySelector(".selected");
+      select.addEventListener("click", () => {
+        select.classList.toggle("select-clicked");
+        caret.classList.toggle("caret-rotate");
+        menu.classList.toggle("menu-open");
+      });
+      options.forEach((element) => {
+        element.addEventListener("click", () => {
+          selected.innerText = element.innerText;
+        });
+        select.classList.remove("select-clicked");
+        caret.classList.remove("caret-rotate");
+        menu.classList.remove("menu-open");
+        options.forEach((element) => {
+          element.classList.remove("active");
+        });
+        // options.classList.add("active");
+      });
+    });
+  });
+  const [category1, setcategory] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/categories")
+      .then(({ data }) => setcategory(data));
+  }, []);
+  const oclickOnhander = (e) => {
+    axios
+      .get(`http://localhost:3000/categories/${e}?_embed=project`)
+      .then(({ data }) => setdata(data.project));
+  };
   return `
     ${header()}
     <div class="body-home">
@@ -65,7 +104,7 @@ const project = () => {
               <br>
               công việc</p>
               <div class="to-contact">
-                <a href="/contact">Contact me  <i class="fa-regular fa-address-book"></i></a>
+              <a href="./img/main.png" download="">Dowload CV <i class="fa-solid fa-cloud-arrow-down"></i></a>
               </div>
           </div>
         </div>
@@ -94,9 +133,20 @@ const project = () => {
 
     <div class="project">
     <div class="container">
-        <h1 style = "padding-bottom: 30px;">
-            Hiển thị Projects
+    <div class="ds-khung">
+         <h1 style = "padding-bottom: 30px;">
+           Hiển thị Projects
         </h1>
+        <div class="ds-list">
+          <div class="select">
+                 <span class="selected">Danh mục</span>
+                 <div class="caret"></div>
+          </div>
+          <ul class="menu">
+                  ${category(category1, { click: oclickOnhander })}
+          </ul>
+    </div>
+    </div>
         <form action="" id="btn-search" class="form-search">
             <input type="text" placeholder="Tìm kiếm" id="search">
             <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>

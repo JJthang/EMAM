@@ -3,6 +3,12 @@ import { useEffect, useState } from "../lib/router";
 
 const header = () => {
   const [data, setdata] = useState([]);
+  const [category, setcategory] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/categories")
+      .then(({ data }) => setcategory(data));
+  }, []);
   useEffect(() => {
     axios
       .get(" http://localhost:3000/profile")

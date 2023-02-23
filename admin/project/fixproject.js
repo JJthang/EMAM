@@ -9,6 +9,31 @@ const fixproject = ({ id }) => {
       .then(({ data }) => setdata(data));
   }, []);
 
+  const uploadFiles = async (files) => {
+    if (files) {
+      const cloud_name = "dsbiugddk";
+      const preset_name = "demo-ECMA";
+      const urls = [];
+      const FOLDER_NAME = "Upload_ECMA";
+      const api = `https://api.cloudinary.com/v1_1/${cloud_name}/image/upload`;
+      const formData = new FormData();
+
+      formData.append("upload_preset", preset_name);
+      formData.append("folder", FOLDER_NAME);
+
+      for (const file of files) {
+        formData.append("file", file);
+        const respon = await axios.post(api, formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+        urls.push(respon.data.secure_url);
+      }
+      return urls;
+    }
+  };
+
   useEffect(() => {
     const takeform = document.querySelector("#form_add");
     const name = document.querySelector("#name");
@@ -16,20 +41,27 @@ const fixproject = ({ id }) => {
     const github = document.querySelector("#github");
     const frameword = document.querySelector("#frameword");
     const takeimg = document.querySelector("#img");
-    takeform.addEventListener("submit", (e) => {
+    console.log(uploadFiles(takeimg.files));
+    takeform.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      //   uploadFiles(takeimg.files).then((res) => {
+      //     console.log(res);
+      //   });
+      //   console.log(uploadFiles(takeimg.files));
       const formdata = {
         name: name.value,
         langues: langues.value,
         github: github.value,
         frameword: frameword.value,
-        img: takeimg.value,
+        img: await uploadFiles(takeimg.files),
       };
       e.preventDefault();
       axios
         .put("http://localhost:3000/project/" + id, formdata)
-        .then(({ data }) => setdata(data))
-        .then(() => alert("Xửa thành công!"))
-        .then(() => router.navigate("/admin/show_project"));
+        .then(({ data }) => setdata(data));
+      // .then(() => alert("Xửa thành công!"))
+      // .then(() => router.navigate("/admin/show_project"));
     });
   });
   return `
